@@ -81,3 +81,19 @@
 .ex-6-img:hover {
  filter: grayscale(1);
 }
+/*SETTIMO ESERCIZIO*/
+.ex-7-img:hover {
+  animation-name: gradiente;
+  animation-duration: 5s;
+}
+@keyframes gradiente {
+  0% {
+      filter: none;
+  }
+  50% {
+      filter: grayscale(1) sepia(10);
+  }
+  100% {
+      filter: grayscale(1);
+  }
+}
