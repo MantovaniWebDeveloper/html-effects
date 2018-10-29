@@ -34,10 +34,10 @@
 }
 /*QUARTO ESERCIZIO*/
 .ex-4-square:hover {
- animation-name: scomparire;
+ animation-name: opacita;
  animation-duration: 2s;
 }
-@keyframes scomparire {
+@keyframes opacita {
   0% {
       opacity: none;
   }
