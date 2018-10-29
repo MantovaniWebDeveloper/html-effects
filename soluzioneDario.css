@@ -20,9 +20,42 @@
 .ex-3-square:hover {
  animation-name: cerchio;
  animation-duration: 3s;
+ animation-delay
 }
 @keyframes cerchio {
+  0% {
+      border-radius: 0%;
+  }
+  50% {
+      border-radius: 50%;
+  }
   100% {
-      border-radius: 50px;
+      border-radius: 100%;
+  }
+}
+/*QUARTO ESERCIZIO*/
+.ex-4-square:hover {
+ animation-name: scomparire;
+ animation-duration: 2s;
+}
+@keyframes scomparire {
+  0% {
+      opacity: none;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 0.0;
+  }
+}
+/*QUINTO ESERCIZIO*/
+.ex-5-square:hover {
+ animation-name: scomparire;
+ animation-duration: 2s;
+}
+@keyframes scomparire {
+  100% {
+      opacity: 0.0;
   }
 }
