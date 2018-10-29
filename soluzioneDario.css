@@ -97,3 +97,20 @@
       filter: grayscale(1);
   }
 }
+/*OTTAVO ESERCIZIO*/
+.ex-8-img:hover {
+  animation-name: gradiente;
+  animation-duration: 5s;
+}
+@keyframes gradiente {
+  0% {
+      filter: none;
+      border-radius: 0px;
+  }
+  100% {
+      filter:  sepia(10);
+      border-radius: 15px;
+
+  }
+
+}
