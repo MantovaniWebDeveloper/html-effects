@@ -7,3 +7,22 @@
   background-color: red;
 }
 /*SECONDO ESERCIZIO*/
+.ex-2-square:active {
+ animation-name: allungamento;
+ animation-duration: 5s;
+}
+@keyframes allungamento {
+  50% {
+      width: calc(100% + 50%);
+  }
+}
+/*TERZO ESERCIZIO*/
+.ex-3-square:hover {
+ animation-name: cerchio;
+ animation-duration: 3s;
+}
+@keyframes cerchio {
+  100% {
+      border-radius: 50px;
+  }
+}
